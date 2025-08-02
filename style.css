@@ -1,0 +1,59 @@
+/* Make sure page doesn’t scroll during game */
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: skyblue;
+}
+
+/* Center and resize the canvas */
+canvas {
+  display: block;
+  margin: 0 auto;
+  background-color: skyblue;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 2px solid #000;
+}
+
+/* Optional game menu styling */
+#menu {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#menu button {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#menu button:hover {
+  background-color: #45a049;
+}
+
+/* Controls for mobile */
+#controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#controls button {
+  padding: 15px 25px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  background-color: #ff9800;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#controls button:active {
+  background-color: #e68a00;
+}
